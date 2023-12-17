@@ -1,0 +1,40 @@
+[0m23:48:49.939008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002380DB13CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002381073A700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002381073A340>]}
+
+
+============================== 23:48:49.955717 | 3e4166eb-7e5f-4f77-ab50-ac577db4e5f6 ==============================
+[0m23:48:49.955717 [info ] [MainThread]: Running with dbt=1.7.3
+[0m23:48:49.955717 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init demodbt', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:48:49.955717 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/user/.dbt')}
+[0m23:48:49.955717 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m23:48:49.964288 [debug] [MainThread]: Starter project path: c:\users\user\appdata\local\programs\python\python38\lib\site-packages\dbt\include\starter_project
+[0m23:48:49.981035 [info ] [MainThread]: 
+Your new dbt project "demodbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:48:49.989035 [info ] [MainThread]: Setting up your profile.
+[0m23:49:24.457313 [info ] [MainThread]: Profile demodbt written to C:\Users\user\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:49:24.457313 [debug] [MainThread]: Command `dbt init` succeeded at 23:49:24.457313 after 34.53 seconds
+[0m23:49:24.457313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002380DB13CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238107695B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238107694C0>]}
+[0m23:49:24.457313 [debug] [MainThread]: Flushing usage events
+[0m19:58:17.108284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E8F783C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E900F20A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E923D9E20>]}
+
+
+============================== 19:58:17.123280 | 2785ee1a-53c8-4552-bc84-1c651f27bf80 ==============================
+[0m19:58:17.123280 [info ] [MainThread]: Running with dbt=1.7.3
+[0m19:58:17.124315 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init demodbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:58:17.126281 [info ] [MainThread]: A project called demodbt already exists here.
+[0m19:58:17.129284 [debug] [MainThread]: Command `dbt init` succeeded at 19:58:17.128284 after 0.10 seconds
+[0m19:58:17.129284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E8F783C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E900F20A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E923D9970>]}
+[0m19:58:17.130281 [debug] [MainThread]: Flushing usage events
